@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif; /* Set Roboto as the default font for the body */
+}
+
+.header {
+  background-color: #ff5005;
+  border-bottom: 2px solid #ff5005; /* Orange border color */
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  width: 100%; 
+  
+}
+
+.search-container {
+  width: 70%; 
+  display: flex;
+  max-width: 900px; 
+  justify-content: center;
+  margin-top: 5px; /* Increase this value to move the image further down */
+  margin-left: -130px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px; /* Rounded left corners */
+  outline: none;
+}
+
+button[type="submit"] {
+  width: 60px; /* Adjust width and height */
+  height: 40px;
+  border: none;
+  padding: 0;
+  background-color: #ff5005;
+  color: white;
+  border-radius: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 35px;
+  left: 980px; /* Adjust this value to move the button to the left */
+  
+}
+
+
+.logo-container {
+  position: relative;
+  display: inline-block;
+
+}
+
+.toptext-shopee {
+  position: absolute;
+  top: -50%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+  letter-spacing: 2px; 
+  font-size: 10px;
+  margin-left: 50px
+}
+.topright-shopee {
+  position: absolute;
+  top: -47%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  white-space: nowrap; /* Prevent text from wrapping */
+  letter-spacing: 2px; 
+  font-size: 10px;
+  margin-left: 650px
+}
+
+.logo {
+  width: 150px; /* Adjust the width of the logo */
+  margin-right: 20px; /* Add space between the logo and the search container */
+  margin-top: 5px; /* Increase this value to move the image further down */
+}
+
+.catagory {
+  color: white;
+  font-size: 11px;
+  margin-top: -15px;
+  text-align: center;
+  margin-left: 100px;
+  
+  }
+
+.bigbox {
+ width: 710px;
+ margin-top: 10px;
+ margin-left: 220px;
+}
+
+.brandspot{
+ width: 342px;
+ position: absolute;
+ margin-left: 1%;
+ margin-top: 10px;
+ 
+}
+
+.ensurebox {
+  width: 342px;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 1%;
+}
+
+.notifbell {
+  
+ width: 15px;
+ position: absolute;
+ margin-top: -116px;
+ margin-left: -60px;
+}
+
+.questionmark {
+  width: 15px;
+  position: absolute;
+  margin-top: -114px;
+  margin-left:45px;
+}
+
+.cart {
+ width: 30px;
+ margin-top: -70px;
+ position: absolute;
+ margin-left:180px;
+}
+
+.coin {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: -680px;
+}
+
+.shipping {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: -580px;
+}
+
+.shopping {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: -480px;
+}
+
+.voucher {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: -380px;
+}
+
+.daily {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: -280px;
+}
+
+.beuity {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: -180px;
+}
+
+.styles {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: -70px;
+}
+
+.smarket {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: 55px;
+}
+
+.gzone {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: 170px;
+}
+
+.ppromo {
+  width: 50px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: 280px;
+}
+.items{
+background-color: lightgray;
+padding: 0;
+margin: 0;
+margin-top: 500px;
+position: absolute;
+top: 5px;
+left: 0;
+right: -15px;
+bottom: 5px;
+border: 5px solid lightgray;
+height: 60%
+}
+
+.categories {
+  overflow: auto; 
+  width: 80%;
+  background-color: white;
+  padding: 10;
+  margin: 0;
+  margin-top: 10px;
+  position: relative;
+  top: 7px;
+  left: 0;
+  right: 20%;
+  bottom: 7px;
+  border: 2px solid white;
+  height: 80%;
+  margin-left:15%;
+  margin-right:-15%;
+  color: lightgray;
+  text-align: top left;
+  }
+
+.menapparel {
+  margin-top: -230px;
+  margin-left: 225px;
+  font-size: 67%;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+}
+
+.mobilegadgets {
+  text-align: center;
+  font-size: 67%;
+  margin-top: -230px;
+  margin-left: 325px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+}
+
+.phoneacessories {
+  text-align: center;
+  font-size: 67%;
+  margin-top: -230px;
+  margin-left: 440px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+  }
+
+.entertainment {
+  text-align: center;
+  font-size: 67%;
+  margin-top: -230px;
+  margin-left: 540px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+  }
+
+.babies {
+  text-align: center;
+  font-size: 70%;
+  margin-top: -230px;
+  margin-left: 640px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+  
+}
+
+.home {
+   text-align: center;
+   font-size: 70%;
+   margin-top: -230px;
+   margin-left: 740px;
+   font-family: 'Roboto', sans-serif;
+   position: absolute
+}
+
+.grocery {
+   text-align: center;
+     font-size: 70%;
+     margin-top: -230px;
+      margin-left: 840px;
+     font-family: 'Roboto', sans-serif;
+     position: absolute
+  }
+
+.toys{
+  
+ text-align: center;
+   font-size: 67%;
+   margin-top: -230px;
+   margin-left: 960px;
+   font-family: 'Roboto', sans-serif;
+   position: absolute
+}
+
+.womenbag{
+   text-align: center;
+   font-size: 70%;
+   margin-top: -230px;
+    margin-left: 1060px;
+   font-family: 'Roboto', sans-serif;
+   position: absolute
+}
+
+.womenaccessories{
+   text-align: center;
+   font-size: 70%;
+   margin-top: -230px;
+   margin-left: 1150px;
+   font-family: 'Roboto', sans-serif;
+   position: absolute
+}
+
+.womenapparel {
+  text-align: center;
+  font-size: 70%;
+  margin-top: -110px;
+  margin-left: 225px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+}
+
+.healthcare {
+  text-align: center;
+  font-size: 70%;
+  margin-top: -110px;
+  margin-left: 325px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+}
+
+.fragrances {
+  text-align: center;
+  font-size: 70%;
+  margin-top: -110px;
+  margin-left: -400px;
+  font-family: 'Roboto', sans-serif;
+  position: relative
+}
+
+.homeappliance {
+  width: 40%;
+  text-align: center;
+  font-size: 67%;
+  margin-top: -110px;
+  margin-left: 300px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+ 
+}
+
+.laptop {
+  width: 40%;
+  text-align: center;
+  font-size: 70%;
+  margin-top: -110px;
+  margin-left: 400px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+
+}
+
+
+.sports{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -110px;
+  margin-left: 830px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+}
+.watch{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -110px;
+  margin-left: 960px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+}
+
+.shoes{
+  text-align: center;
+  font-size: 70%;
+  margin-top: -110px;
+  margin-left: 1070px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute
+}
+
+.cam {
+    text-align: center;
+    font-size: 70%;
+    margin-top: -110px;
+    margin-left: 750px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute
+}
+
+.helmet{
+    text-align: center;
+    font-size: 70%;
+    margin-top: -110px;
+    margin-left: 1170px;
+    font-family: 'Roboto', sans-serif;
+    position: absolute
+}
+.coinR {
+  font-family: 'Roboto', sans-serif;
+  margin-top: -380px;
+  margin-left: 225px;
+  font-size: 13px;
+   position: absolute
+}
+
+.Fshipping {
+  font-family: 'Roboto', sans-serif;
+  margin-top: -380px;
+  margin-left: 355px;
+  font-size: 13px;
+   position: absolute
+}
+.shopeeM {
+  font-family: 'Roboto', sans-serif;
+  margin-top: -385px;
+  margin-left: 435px;
+  font-size: 13px;
+  position: absolute
+}
+
+.VoucheR {
+  font-family: 'Roboto', sans-serif;
+  margin-top: -380px;
+  margin-left: 540px;
+  font-size: 13px;
+  position: absolute
+}
+
+.lowAS {
+ font-family: 'Roboto', sans-serif;
+  margin-top: -380px;
+  margin-left: 640px;
+  font-size: 13px;
+  position: absolute
+}
+
+.shopeeB {
+ font-family: 'Roboto', sans-serif;
+  margin-top: -380px;
+  margin-left: 750px;
+  font-size: 13px;
+  position: absolute
+}
+.shopeeS {
+ font-family: 'Roboto', sans-serif;
+  margin-top: -380px;
+  margin-left: 855px;
+  font-size: 13px;
+  position: absolute
+}
+
+.shopeeSM {
+ font-family: 'Roboto', sans-serif;
+  margin-top: -380px;
+  margin-left: 980px;
+  font-size: 13px;
+  position: absolute
+}
+
+.GADGETz {
+ font-family: 'Roboto', sans-serif;
+  margin-top: -380px;
+  margin-left: 1080px;
+  font-size: 13px;
+  position: absolute
+}
+
+.PP {
+ font-family: 'Roboto', sans-serif;
+  margin-top: -380px;
+  margin-left: 1190px;
+  font-size: 13px;
+  position: absolute
+}
+
+.search {
+  width: 20px;
+   position: absolute;
+   margin-left: 1000px;
+   margin-top: -70px;
+}
+ .fb {
+    width: 17px;
+    position: absolute;
+    margin-left: 625px;
+    margin-top: -115px;
+ }
